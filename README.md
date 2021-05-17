@@ -32,7 +32,7 @@ def print_hi():
 
 print_hi()
 ```
-Output:
+#### Output
 ```
 Started.
 Hi!
