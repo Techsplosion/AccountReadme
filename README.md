@@ -1,5 +1,5 @@
 # Introduction
-Hello guys! I am Techboy v1050. You can access my youtube channel at [here](https://www.youtube.com/channel/UCzbYYyFvd5lXhEK_EdnPkTw). I have 40 or so (as of now) subcribers.
+Hello guys! I am Techboy v1050. You can access my YouTube channel at [here](https://www.youtube.com/channel/UCzbYYyFvd5lXhEK_EdnPkTw). I have 40 or so (as of now) subscribers.
 If you subscribe to me, that would mean a lot. But you don't have to! All the repositories: [html](https://github.com/KivancTok/html), [python](https://github.com/KivancTok/python), [Unity](https://github.com/KivancTok/Unity) and [CSharp](https://github.com/KivancTok/CSharp).
 ***
 # Python
@@ -12,7 +12,7 @@ print("Hello world!")
 ### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
 #### File `modulo.py`
 ```py
-i = int(input("Enter a whole number to see the remainder: ")
+i = int(input("Enter a whole number to see the remainder: "))
 print(i % 2)
 ```
 ## Complicated
@@ -22,7 +22,7 @@ print(i % 2)
 def start_end(func):
 	def wrapper_se(*args, **kwargs):
 		print("Started.")
-		func()
+		func(*args, **kwargs)
 		print("Ended.")
 		return
 	return wrapper_se
@@ -50,8 +50,8 @@ def print_hi():
 #### Module `somepackage\other.py`
 ```py
 def print_hi_in(inprefix: str):
-	in = input(inprefix)
-	print(f"Hi, {in}!
+	inputu = input(inprefix)
+	print(f"Hi, {inputu}!")
 ```
 #### File `cimports.py`
 ```py
@@ -74,44 +74,46 @@ pip install discord
 from discord.ext import commands
 from math import sqrt
 
-botclient = commands.Bot(prefix="mb!")
-botclient.remove_command("help")
+botclient = commands.Bot(command_prefix="mb!")
+botclient.remove_command('help')
+
+TOKEN = 'YOUR-TOKEN-HERE'
 
 
 @botclient.event
 async def on_ready():
-	print(f"{client.user.name} is ready.")
+	print(f"{botclient.user.name} is ready.")
 
 
 @botclient.command(aliases=["add"])
-async def addition(ctx, num1: int, num2: int):
+async def addition(ctx, num1: float, num2: float):
 	await ctx.send(str(num1-num2))
 
 
 @botclient.command(aliases=["subtract"])
-async def subtraction(ctx, num1: int, num2: int):
+async def subtraction(ctx, num1: float, num2: float):
 	await ctx.send(str(num1-num2))
 
 
 @botclient.command(aliases=["multiply"])
-async def multiplication(ctx, num1: int, num2: int):
+async def multiplication(ctx, num1: float, num2: float):
 	await ctx.send(str(num1*num2))
 
 
 @botclient.command(aliases=["divide"])
-async def division(ctx, num1: int, num2: int):
+async def division(ctx, num1: float, num2: float):
 	await ctx.send(str(num1/num2))
 
 
 @botclient.command(aliases=["sqrt"])
-async def squareroot(ctx, number: int):
+async def squareroot(ctx, number: float):
 	await ctx.send(str(sqrt(number))
 
 
 @botclient.command(aliases=["cbrt"])
-async def cuberoot(ctx, number: int):
-	await ctx.send(str(sqrt(number/3))
-
+async def cuberoot(ctx, number: float):
+	await ctx.send(str(sqrt(number / 3)))
+botclient.run(TOKEN)
 ```
 # C++
 ## Basic
