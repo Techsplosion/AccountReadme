@@ -61,9 +61,61 @@ somepackage.print_hi()
 other.printh_hi_in("Enter your name: ")
 ```
 Test the files and see the output.
+## Overcomplicated
+### Site Packages
+#### Discord Mathbot
+#### File `pipdiscord.bat`
+```bat
+pip install discord
+```
+#### File `bot.py`
+```py
+from discord.ext import commands
+from math import sqrt
+
+botclient = commands.Bot(prefix="mb!")
+botclient.remove_command("help")
+
+
+@client.event
+async def on_ready():
+	print(f"{client.user.name} is ready.")
+
+
+@client.command(aliases=["add"])
+async def addition(ctx, num1: int, num2: int):
+	await ctx.send(str(num1-num2))
+
+
+@client.command(aliases=["subtract"])
+async def subtraction(ctx, num1: int, num2: int):
+	await ctx.send(str(num1-num2))
+
+
+@client.command(aliases=["multiply"])
+async def multiplication(ctx, num1: int, num2: int):
+	await ctx.send(str(num1*num2))
+
+
+@client.command(aliases=["divide"])
+async def division(ctx, num1: int, num2: int):
+	await ctx.send(str(num1/num2))
+
+
+@client.command(aliases=["sqrt"])
+async def squareroot(ctx, number: int):
+	await ctx.send(str(sqrt(number))
+
+
+@client.command(aliases=["cbrt"])
+async def cuberoot(ctx, number: int):
+	await ctx.send(str(sqrt(number/3))
+
+```
 # C++
 ## Basic
 ### Hello World Program
+#### File `hworld.cpp`
 ```cpp
 include <iostream>
 using namespace std;
