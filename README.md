@@ -58,7 +58,7 @@ import somepackage
 from somepackage import other
 
 somepackage.print_hi()
-otherprinth_hi_in("Enter your name: ")
+other.printh_hi_in("Enter your name: ")
 ```
 Test the files and see the output.
 # C++
