@@ -8,8 +8,8 @@ If you subscribe to me, that would mean a lot. But you don't have to!
 ```py
 print("Hello world!")
 ```
-### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulus, the remainder can be `0` or `1` and is outputted):
-#### File `modulus.py`
+### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
+#### File `modulo.py`
 ```py
 i = int(input("Enter a whole number to see the remainder: ")
 print(i % 2)
@@ -77,37 +77,37 @@ botclient = commands.Bot(prefix="mb!")
 botclient.remove_command("help")
 
 
-@client.event
+@botclient.event
 async def on_ready():
 	print(f"{client.user.name} is ready.")
 
 
-@client.command(aliases=["add"])
+@botclient.command(aliases=["add"])
 async def addition(ctx, num1: int, num2: int):
 	await ctx.send(str(num1-num2))
 
 
-@client.command(aliases=["subtract"])
+@botclient.command(aliases=["subtract"])
 async def subtraction(ctx, num1: int, num2: int):
 	await ctx.send(str(num1-num2))
 
 
-@client.command(aliases=["multiply"])
+@botclient.command(aliases=["multiply"])
 async def multiplication(ctx, num1: int, num2: int):
 	await ctx.send(str(num1*num2))
 
 
-@client.command(aliases=["divide"])
+@botclient.command(aliases=["divide"])
 async def division(ctx, num1: int, num2: int):
 	await ctx.send(str(num1/num2))
 
 
-@client.command(aliases=["sqrt"])
+@botclient.command(aliases=["sqrt"])
 async def squareroot(ctx, number: int):
 	await ctx.send(str(sqrt(number))
 
 
-@client.command(aliases=["cbrt"])
+@botclient.command(aliases=["cbrt"])
 async def cuberoot(ctx, number: int):
 	await ctx.send(str(sqrt(number/3))
 
@@ -121,5 +121,19 @@ include <iostream>
 using namespace std;
 int main() {
 	cout << "Hello world!" << endl;
+}
+```
+### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
+#### File `modulo.cpp`
+```cpp
+include <iostream>
+include <string>
+using namespace std;
+int main() {
+	int modulo;
+	string prompt = "";
+	cout << prompt << endl;
+	cin >> modulo;
+	cout << modulo % 2 << endl; 
 }
 ```
