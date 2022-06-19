@@ -186,7 +186,7 @@ async def cuberoot(ctx, number: float):
 botclient.run(TOKEN)
 ```
 # C++
-DISCLAIMER: I have (pretty much) no idea about C++.
+I have little idea about C++.
 ## Basic
 ### Hello World Program
 #### File `hworld.cpp`
