@@ -1,6 +1,77 @@
 # Introduction
-Hello guys! I am Techsplosion. You can access my YouTube channel at [here](https://www.youtube.com/channel/UCzbYYyFvd5lXhEK_EdnPkTw). I have 40 or so (as of now) subscribers.
-If you subscribe to me, that would mean a lot. But you don't have to! All the repositories: [html](https://github.com/Techsplosion/html), [python](https://github.com/Techsplosion/python), [Unity](https://github.com/Techsplosion/Unity) and [CSharp](https://github.com/Techsplosion/CSharp).
+Hello guys! I am Techsplosion.
+<details>
+<summary>Do</summary>
+<details>
+<summary>Not</summary>
+<details>
+<summary>Open</summary>
+<details>
+<summary>This</summary>
+<details>
+<summary>I</summary>
+<details>
+<summary>Swear</summary>
+<details>
+<summary>There</summary>
+<details>
+<summary>Is</summary>
+<details>
+<summary>Nothing</summary>
+<details>
+<summary>Here</summary>
+<details>
+<summary>S</summary>
+<details>
+<summary>t</summary>
+<details>
+<summary>o</summary>
+<details>
+<summary>p</summary>
+<details>
+<summary>I</summary>
+<details>
+<summary>t</summary>
+<details>
+<summary>A</summary>
+<details>
+<summary>l</summary>
+<details>
+<summary>r</summary>
+<details>
+<summary>e</summary>
+<details>
+<summary>a</summary>
+<details>
+<summary>d</summary>
+<details>
+<summary>y</summary>
+You can access my YouTube channel at [here](https://www.youtube.com/channel/UCzbYYyFvd5lXhEK_EdnPkTw). I have 200 or so (as of now) subscribers.
+If you subscribe to me, that would mean a lot. But you don't have to!
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+All the repositories: [html](https://github.com/Techsplosion/html), [python](https://github.com/Techsplosion/python), [Unity](https://github.com/Techsplosion/Unity) and [CSharp](https://github.com/Techsplosion/CSharp).
 ***
 # Python
 ## Basic
