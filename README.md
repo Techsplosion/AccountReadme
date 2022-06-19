@@ -72,11 +72,6 @@ If you subscribe to me, that would mean a lot. But you don't have to!
 </details>
 </details>
 
-
-
-
-
-
 # Python
 ## Basic
 ### Hello World Program
