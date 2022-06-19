@@ -1,3 +1,7 @@
+# Introduction
+Hello guys! I am Techsplosion. You can access my YouTube channel at [here](https://www.youtube.com/channel/UCzbYYyFvd5lXhEK_EdnPkTw). I have 40 or so (as of now) subscribers.
+If you subscribe to me, that would mean a lot. But you don't have to! All the repositories: [html](https://github.com/Techsplosion/html), [python](https://github.com/Techsplosion/python), [Unity](https://github.com/Techsplosion/Unity) and [CSharp](https://github.com/Techsplosion/CSharp).
+***
 # Python
 ## Basic
 ### Hello World Program
@@ -5,7 +9,7 @@
 ```py
 print("Hello world!")
 ```
-### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
+### Simple Modulo with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
 #### File `modulo.py`
 ```py
 i = int(input("Enter a whole number to see the remainder: "))
@@ -112,6 +116,7 @@ async def cuberoot(ctx, number: float):
 botclient.run(TOKEN)
 ```
 # C++
+DISCLAIMER: I have (pretty much) no idea about C++.
 ## Basic
 ### Hello World Program
 #### File `hworld.cpp`
@@ -122,7 +127,7 @@ int main() {
 	cout << "Hello world!" << endl;
 }
 ```
-### Simple Modulus with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
+### Simple Modulo with User Input (is done with dividing by 2 and the % icon for modulo, the remainder can be `0` or `1` and is outputted)
 #### File `modulo.cpp`
 ```cpp
 include <iostream>
