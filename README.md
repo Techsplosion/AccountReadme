@@ -72,7 +72,6 @@ If you subscribe to me, that would mean a lot. But you don't have to!
 </details>
 </details>
 All the repositories: [html](https://github.com/Techsplosion/html), [python](https://github.com/Techsplosion/python), [Unity](https://github.com/Techsplosion/Unity) and [CSharp](https://github.com/Techsplosion/CSharp).
-***
 # Python
 ## Basic
 ### Hello World Program
