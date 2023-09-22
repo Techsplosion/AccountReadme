@@ -1,3 +1,5 @@
+<details>
+<summary>Old</summary>
 # Introduction
 Hello guys! I am Techsplosion.
 <details>
@@ -211,3 +213,4 @@ int main() {
 	cout << modulo % 2 << endl; 
 }
 ```
+</details>
